@@ -16,12 +16,11 @@ const Dashboard = () => {
   }, [month]);
 
   return (
-    <Container
+    <Container fullWidth
       sx={{
         backgroundColor: theme.palette.background.default,
         color: theme.palette.text.primary,
         padding: theme.spacing(3),
-        maxWidth: "100%",
       }}
     >
       <Typography variant="h4" gutterBottom sx={{textAlign: 'center'}}>
