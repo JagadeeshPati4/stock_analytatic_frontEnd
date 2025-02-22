@@ -21,7 +21,7 @@ const Dashboard = () => {
         backgroundColor: theme.palette.background.default,
         color: theme.palette.text.primary,
         padding: theme.spacing(3),
-        borderRadius: theme.shape.borderRadius,
+        maxWidth: "100%",
       }}
     >
       <Typography variant="h4" gutterBottom sx={{textAlign: 'center'}}>
